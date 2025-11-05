@@ -54,20 +54,20 @@ pip install customtkinter pillow
 ## 📦 Building the .exe (for Windows)
 You can bundle this application into a single standalone executable using PyInstaller. This allows it to run on any Windows computer without requiring Python to be installed.
 
-Step 1: Install PyInstaller
+### Step 1: Install PyInstaller
 If you haven't already, install PyInstaller:
 
 ```bash
 pip install pyinstaller
 ```
-Step 2: Prepare Your Application Icon
+### Step 2: Prepare Your Application Icon
 You will need an icon file for your application (like the main.jpg you provided).
 
 You must convert this image to a valid .ico file. You can use an online tool like ICO Convert.
 
 Save this new file as app_icon.ico in the same root folder as your Video Organizer.py script.
 
-Step 3: Final Project Structure
+### Step 3: Final Project Structure
 Your folder should now look like this:
 
 Your-Project-Folder/
@@ -76,13 +76,15 @@ Your-Project-Folder/
 └── icons/                         <-- The folder of button icons
     ├── folder.ico
     ├── ... (etc.)
-Step 4: Run the PyInstaller Command
+    
+### Step 4: Run the PyInstaller Command
 Open a terminal (Command Prompt or PowerShell) in your project's root directory (Your-Project-Folder) and run the following command:
 
-Bash
+```Bash
 
 pyinstaller --name "SmartVideoOrganizer" --onefile --windowed --icon="app_icon.ico" --add-data "icons;icons" "Video Organizer.py"
-Command Breakdown:
+```
+**Command Breakdown:**
 
 --name "SmartVideoOrganizer": Sets the name of your final .exe file.
 
@@ -96,7 +98,7 @@ Command Breakdown:
 
 "Video Organizer.py": The name of your script.
 
-Step 5: Find Your Executable
+### Step 5: Find Your Executable
 After the process completes, you will find your standalone application inside the newly created dist folder:
 
 dist/SmartVideoOrganizer.exe
