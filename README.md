@@ -4,7 +4,8 @@ This is a Smart Video Organizer Project for Organizing Movies And Series With Ti
 A simple yet powerful desktop application built with Python and CustomTkinter to automatically organize your movie and TV show collections into clean, structured folders.
 
 
-*(Suggestion: Add a screenshot of your application here)*
+*<img width="1918" height="1037" alt="image" src="https://github.com/user-attachments/assets/550022b6-1cd1-4c21-9179-6e557aed4e07" />
+*
 
 ---
 
